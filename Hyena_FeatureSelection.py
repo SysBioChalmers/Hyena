@@ -88,7 +88,7 @@ ax.xaxis.set_tick_params(labelsize = 18)
 ax.yaxis.set_tick_params(labelsize = 18)
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
-plt.savefig(path + '/Results/FeatureSelection_Scores' + results_timestring + '.png', dpi = 300, tight = True)
+plt.savefig('/Results/FeatureSelection_Scores' + results_timestring + '.png', dpi = 300, tight = True)
 
 
 #save selected features
