@@ -1,7 +1,5 @@
-![Hyena Logo](/Logo/Hyena_Logo.png)
-Format: ![Hyena](url)
-
-Hybrid promoter design using advanced transcription factor binding analytics
+![Hyena Logo](/Logo/Hyena_Logo.png =500x)
+# Hybrid promoter design using advanced transcription factor binding analytics
 
 This repostiory contains the Hyena toolbox scripts needed to run the Hyena streamlit app as well as all data preprocessing scripts.
 
