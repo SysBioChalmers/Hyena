@@ -6,9 +6,7 @@ Part of the Hyena Toolbox (see https://github.com/SysBioChalmers/Hyena)
 """
 
 import pandas as pd
-import numpy as np
 import csv
-from datetime import datetime
 
 #load intervall data
 tf_data = pd.read_csv('Data/CombinedTFdata_intervals.csv', index_col = 0)
