@@ -8,10 +8,11 @@ Part of the Hyena Toolbox (see https://github.com/SysBioChalmers/Hyena)
 
 import pandas as pd
 import numpy as np
-from xgboost import XGBRegressor
+from xgboost.sklearn import XGBRegressor
 import csv
 import streamlit as st
 from PIL import Image
+import pickle
 
 @st.cache
 def load_data():
@@ -38,12 +39,6 @@ def load_data():
     sequences = {x[0].split(':')[0]: x[1] for x in sequences}
    
     return (tf_data, selected_features, exp_data, gene_list, sequences)
-
-def load_model():
-    model = XGBRegressor()
-    model.load_model('Results/FeatureSelection_Model_200518.model')
-    
-    return model
 
 @st.cache
 def create_artificial_promoters(tf_data, selected_gene):
@@ -113,7 +108,7 @@ def get_predictions_overview(hybrid_promoter_features, target_value):
 
 #load data
 (tf_data, selected_features, expression_data, gene_list, sequences) = load_data()
-model = load_model()
+model = pickle.load(open('Results/FeatureSelection_Model_200518.pkl', 'rb'))
 
 #load logo
 logo = Image.open('Logo_small.png')
