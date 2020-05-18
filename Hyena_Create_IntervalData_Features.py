@@ -190,7 +190,7 @@ tf_data_wide.to_csv('Data/CombinedTFdata_intervals.csv')
 
 
 #create features based on intervals
-interval_list = [[-1000, -500], [-500,0], [0, 500]]
+interval_list = [[-1000, -500], [-500,0], [0, 500], [-1000, 500]]
 tf_data_proc = []
 for interval in interval_list:
     tmp = tf_data_wide.loc[(tf_data_wide.Interval >= interval[0]) & (tf_data_wide.Interval < interval[1])].groupby(['TF','Type']).sum().drop(columns = 'Interval')

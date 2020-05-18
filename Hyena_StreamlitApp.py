@@ -10,7 +10,6 @@ import pandas as pd
 import numpy as np
 from xgboost import XGBRegressor
 import csv
-from datetime import datetime
 import streamlit as st
 from PIL import Image
 
@@ -120,7 +119,7 @@ model = load_model()
 logo = Image.open('Logo_small.png')
 st.image(logo, width = 400)
 
-st.markdown('# Hybrid promoter design using advanced transcription factor binding analytics')
+st.markdown('# Hybrid promoter design using advanced transcription factor binding predictions')
 st.markdown('### Select options in the sidebar on the left')
 
 st.sidebar.markdown('## This tool allows you to create hybrid promoters for fine tuning their conditional gene expression. Readme and Code can be found under https://github.com/SysBioChalmers/Hyena')
