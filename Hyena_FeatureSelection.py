@@ -7,13 +7,13 @@ Part of the Hyena Toolbox (see https://github.com/SysBioChalmers/Hyena)
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import cross_validate, cross_val_predict
-from xgboost import XGBRegressor
+from xgboost.sklearn import XGBRegressor
 from datetime import datetime
 from mlxtend.feature_selection import SequentialFeatureSelector as SFS
-from mlxtend.plotting import plot_sequential_feature_selection as plot_sfs
 import matplotlib.pyplot as plt
 import csv
 import math
+import pickle
 
 def evaluate_model(exp_data, tf_data, model, name):
     scores = cross_validate(model, tf_data, exp_data, scoring = ['neg_mean_squared_error', 'r2'], cv = 5)
@@ -49,14 +49,14 @@ tf_data_proc.drop('exp_data', inplace = True, axis = 1)
 print('Done loading features - ' + datetime.now().strftime('%H:%M:%S'))
 
 #define initial model
-model = XGBRegressor(n_estimators = 100, objective = 'reg:squarederror', seed = 1234, learning_rate = 0.1, max_depth = 2)
+model = XGBRegressor(n_estimators = 10, objective = 'reg:squarederror', seed = 1234, learning_rate = 0.1, max_depth = 2)
 
 #define outputname part
 results_timestring = datetime.now().strftime('%y%m%d')
 
 #run sequential feature selection
 sfs = SFS(model, 
-           k_features=(10,20), 
+           k_features=(5,10), 
            forward=True, 
            floating=False, 
            verbose=2,
@@ -88,8 +88,7 @@ ax.xaxis.set_tick_params(labelsize = 18)
 ax.yaxis.set_tick_params(labelsize = 18)
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
-plt.savefig('Results/FeatureSelection_Scores' + results_timestring + '.png', dpi = 300, tight = True)
-
+plt.savefig('Results/FeatureSelection_Scores_' + results_timestring + '.png', dpi = 300, tight = True)
 
 #save selected features
 with open('Results/FeatureSelection_Features_' + results_timestring + '.csv', 'w', newline='') as myfile:
@@ -107,4 +106,4 @@ evaluate_model(exp_data, tf_data_sel, model, 'Selected Features')
 model.fit(tf_data_sel, exp_data)
 
 #save model
-model.save_model('Results/FeatureSelection_Model_' + results_timestring + '.model')
+pickle.dump(model, open('Results/FeatureSelection_Model_' + results_timestring + '.pkl', "wb"))
