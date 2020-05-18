@@ -1,5 +1,5 @@
 ![Hyena Logo](/Logo_small.png)
-# Hybrid promoter design using advanced transcription factor binding analytics
+# Hybrid promoter design using advanced transcription factor binding predictions
 
 This repostiory contains the Hyena toolbox scripts needed to run the Hyena streamlit app as well as all data preprocessing scripts.
 
@@ -17,7 +17,7 @@ The Hyena toolbox can also be used completly offline following the outlined step
 
 ### Setting up python environment
 The used python environemnt to run all scripts was created using pipenv (with Python 3.7) and the following command
-pipenv install streamlit pandas numpy scikit-learn xgboost mlxtend matplotlib seaborn
+pipenv install streamlit pandas numpy scikit-learn xgboost mlxtend matplotlib
 
 Using the pip freeze command a requirement file was created as requirements.txt (pipenv run pip freeze > requirements.txt).
 This file can be used to reinstall the environment using pipenv with the following command:
