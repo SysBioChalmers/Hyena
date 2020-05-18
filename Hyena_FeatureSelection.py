@@ -30,14 +30,14 @@ def scatter_plotter(exp_data, predictions, scores, name):
     max_value = math.ceil(max([max(exp_data), max(predictions)]))
     plt.plot([min_value, max_value],[min_value, max_value],'r--', linewidth = 1.5, zorder = 0)
     plt.scatter(exp_data, predictions, s = 40, zorder = 1, alpha = 0.7, linewidth = 1)
-    plt.xlabel('Experimental Ratio', fontSize = 16)
-    plt.ylabel('Predicted Ratio', fontSize = 16)
-    plt.title(name + ' - R2: ' + str(round(scores['test_r2'].mean(),3)), fontSize = 16)
-    ax.xaxis.set_tick_params(labelsize = 16)
-    ax.yaxis.set_tick_params(labelsize = 16)
+    plt.xlabel('Experimental Log2 Expression Ratio', fontSize = 18)
+    plt.ylabel('Predicted Log2 Expression Ratio Ratio', fontSize = 18)
+    plt.title(name + ' - R2: ' + str(round(scores['test_r2'].mean(),3)), fontSize = 18)
+    ax.xaxis.set_tick_params(labelsize = 18)
+    ax.yaxis.set_tick_params(labelsize = 18)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
-    plt.savefig('Results/ModelPerformance_' + name.replace(' ', '') + '.png', dpi = 300, tight = True)
+    plt.savefig('Results/ModelPerformance_' + name.replace(' ', '') + '_' + results_timestring + '.png', dpi = 300, tight = True)
     plt.show()
 
 
@@ -71,30 +71,24 @@ tf_data_sel = tf_data_proc.loc[:,selected_features]
 print('\n\nDone feature selection - ' + datetime.now().strftime('%H:%M:%S'))
 print('Optimal number of features : ' + str(tf_data_sel.shape[1]) + ' out of ' + str(tf_data_proc.shape[1]))
 
-
-
-fig = plot_sfs(sfs.get_metric_dict(), kind='std_dev')
-plt.title('Sequential Forward Selection (w. StdDev)')
-plt.xlabel('Number of features selected')
-plt.ylabel('CV r2')
-plt.savefig('Results/FeatureSelection_Scores_' + results_timestring + '.png', dpi = 300, bbox_inches='tight')
-plt.show
-
 #create figure for feature selection process
+num_features = max(sfs.get_metric_dict().keys())
 plt.figure(figsize = (8,6))
 ax = plt.gca()
 plt.axvline(x = len(selected_features), ymin = 0, ymax = 1, linewidth = 2, color = 'red')
-plt.plot(list(para_sel_log.keys()), list(para_sel_log.values()), linewidth = 3)
-plt.text(len(selected_features) + 2, 0.3, str(len(selected_features)) + ' features selected', fontsize = 16)
-
-plt.ylabel('Crossvalidated R$^2$ score', fontSize = 16)
-plt.xlabel('Number of features selected', fontSize = 16)
-ax.xaxis.set_tick_params(labelsize = 16)
-ax.yaxis.set_tick_params(labelsize = 16)
+plt.plot(list(sfs.get_metric_dict().keys()), [x['avg_score'] for x in sfs.get_metric_dict().values()], linewidth = 3, marker = 'o', markersize = 8)
+ax.fill_between(list(sfs.get_metric_dict().keys()),
+                [x['avg_score'] - x['std_dev'] for x in sfs.get_metric_dict().values()],
+                [x['avg_score'] + x['std_dev'] for x in sfs.get_metric_dict().values()], alpha=0.2)
+plt.text(len(selected_features) +0.5, 0.3, str(len(selected_features)) + ' features\n selected', fontsize = 18)
+plt.ylabel('Crossvalidated R$^2$ score', fontSize = 18)
+plt.xlabel('Number of features selected', fontSize = 18)
+plt.xticks(range(1,num_features + 1), labels = [x if (x == 1 or x % 5 == 0) else '' for x in range(1,num_features + 1)])
+ax.xaxis.set_tick_params(labelsize = 18)
+ax.yaxis.set_tick_params(labelsize = 18)
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
-
-plt.savefig(path + '/Results/' + log_name + '_r2plot.png', dpi = 300, tight = True)
+plt.savefig(path + '/Results/FeatureSelection_Scores' + results_timestring + '.png', dpi = 300, tight = True)
 
 
 #save selected features
