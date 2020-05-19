@@ -12,7 +12,7 @@ import csv
 tf_data = pd.read_csv('Data/CombinedTFdata_intervals.csv', index_col = 0)
 
 #load selected features
-with open('Results/FeatureSelection_Features_200518.csv', 'r') as myfile:
+with open('Results/FeatureSelection_Features.csv', 'r') as myfile:
     reader = csv.reader(myfile)
     selected_features = [line[0] for line in reader]
     
@@ -27,4 +27,4 @@ for tf, type_name in tf_type_combos:
 tf_data_sel = pd.concat(tf_data_sel, ignore_index = True)
 
 #save selected intervall data
-tf_data_sel.to_csv('Results/CombinedTFdata_intervals_selected_200518.csv')
+tf_data_sel.to_csv('Results/CombinedTFdata_intervals_selected.csv')

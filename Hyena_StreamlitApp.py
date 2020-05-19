@@ -17,7 +17,7 @@ import pickle
 @st.cache
 def load_data():
     #load intervall data
-    tf_data = pd.read_csv('Results/CombinedTFdata_intervals_selected_200518.csv', index_col = 0)
+    tf_data = pd.read_csv('Results/CombinedTFdata_intervals_selected.csv', index_col = 0)
     
     #load gene expression data
     exp_data=pd.read_csv('Data/RNAseqData.csv',index_col=0)
@@ -30,7 +30,7 @@ def load_data():
     gene_list = [x for x in tf_data.columns if x not in ['Interval', 'TF', 'Type']]
     
     #load selected features
-    with open('Results/FeatureSelection_Features_200518.csv', 'r') as myfile:
+    with open('Results/FeatureSelection_Features.csv', 'r') as myfile:
         reader = csv.reader(myfile)
         selected_features = [line[0] for line in reader]
         
@@ -108,7 +108,7 @@ def get_predictions_overview(hybrid_promoter_features, target_value):
 
 #load data
 (tf_data, selected_features, expression_data, gene_list, sequences) = load_data()
-model = pickle.load(open('Results/FeatureSelection_Model_200518.pkl', 'rb'))
+model = pickle.load(open('Results/FeatureSelection_Model.pkl', 'rb'))
 
 #load logo
 logo = Image.open('Logo_small.png')
