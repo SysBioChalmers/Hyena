@@ -126,13 +126,13 @@ selected_gene = st.sidebar.selectbox('Choose the promoter you would like to modi
 if selected_gene != 'No selection':
     
     selected_gene_expression = pd.DataFrame(expression_data.loc[[selected_gene], :])
-    selected_gene_expression.columns = ['Exp. Glucose [TPM]', 'Exp. Ethanol [TPM]', 'Log2 Exp. Ratio']
+    selected_gene_expression.columns = ['Exp. Glucose [TPM]', 'Exp. Ethanol [TPM]', 'Log2 Ratio Eth / Glu']
     
     st.markdown('### Expression overview for your choosen gene: ' + selected_gene)
     st.write(selected_gene_expression)
     
     #select targe value
-    target_value = st.sidebar.number_input('Choose the desired expression ratio', value = 0.0, step = 0.1)
+    target_value = st.sidebar.number_input('Choose the desired expression ratio Ethanol / Glucose', value = 0.0, step = 0.1)
     
     #create the hybrid promoters
     hybrid_promoter_features = create_features(tf_data, selected_gene)
@@ -147,7 +147,7 @@ if selected_gene != 'No selection':
     st.write(predictions.loc[:,['Donor Gene', 'Changed Region', 'Prediction', 'Difference']].head(show_top_x))
     
     #select hybrid promoter for sequence
-    sequence_to_display = st.sidebar.selectbox('Choose which hybrid promoter sequence to display', predictions.index[0:show_top_x].tolist())
+    sequence_to_display = st.selectbox('Choose which hybrid promoter sequence to display', predictions.index[0:show_top_x].tolist())
     
     sequence_ori_up = sequences[selected_gene][0:1000 + predictions.loc[sequence_to_display, 'Changed Region Start']]
     sequence_ori_down = sequences[selected_gene][1000 + predictions.loc[sequence_to_display, 'Changed Region End'] + 1 :]

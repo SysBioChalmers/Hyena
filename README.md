@@ -14,8 +14,8 @@ This model is then used to predict the expression ratios of hybrid promoters tha
 ## How to use the toolbox
 All settings in the toolbox are available in the panel on the left hand side.
 1) First the user chooses a promoter to modify (currently all 1038 metabolic genes included in the Yeast GEM version 8.2 are available).
-2) On the main screen the measured expression levels in both condtiions as well as the log2 ratio is shown for the chosen gene.
-3) The user can now select the target log2 ratio and how many options should be displayed in a table.
+2) On the main screen the measured expression levels in both conditions as well as the log2 ratio is shown for the chosen gene.
+3) The user can now select the target log2 ratio (ethanol / glucose) and how many options should be displayed in a table.
 4) The app now created all hybrid promoters and sorts them by the deviation to the target log2 ratio.
 5) As a final step the user can now choose which hybrid promoter sequence should be displayed, the swapped part is displayed in bold.
 
