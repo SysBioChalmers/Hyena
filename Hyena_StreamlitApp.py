@@ -73,10 +73,10 @@ def create_artificial_promoters(tf_data, selected_gene):
 def create_features(tf_data, selected_gene):
     
     #get hybrid promoters
-    hybrid_promoter = create_artificial_promoters(tf_data, selected_gene[0:10])
+    hybrid_promoter = create_artificial_promoters(tf_data, selected_gene)
     
     #create features based on intervals
-    interval_list = [[-1000, -500], [-500, 0], [0, 500]]
+    interval_list = [[-1000, -500], [-500,0], [0, 500], [-1000, 500]]
     hybrid_promoter_features = []
     for interval in interval_list:
         tmp = hybrid_promoter.loc[(hybrid_promoter.Interval >= interval[0]) & (hybrid_promoter.Interval < interval[1])].groupby(['TF','Type']).sum().drop(columns = 'Interval')
