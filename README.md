@@ -29,13 +29,11 @@ The Hyena toolbox can also be used completly offline following the outlined step
 The used python environemnt to run all scripts was created using pipenv (with Python 3.7) and the following command
 pipenv install streamlit pandas numpy scikit-learn xgboost mlxtend matplotlib
 
-Using the pip freeze command a requirement file was created as requirements_all.txt (pipenv run pip freeze > requirements.txt).
+Using the pip freeze command a requirement file was created as requirements.txt (pipenv run pip freeze > requirements.txt).
 This file can be used to reinstall the environment using pipenv with the following command:
-pipenv run pip install -r requirements_all.txt 
+pipenv install 
 or using pip with
-pip install -r requirements_all.txt 
-
-The requirements.txt file is a smaller variant for heroku deployment without mlxtend and matplotlib
+pip install -r requirements.txt 
 
 #### Start app
 Start the streamlit app using:
