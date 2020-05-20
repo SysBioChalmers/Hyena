@@ -43,30 +43,26 @@ def load_data():
 @st.cache
 def create_artificial_promoters(tf_data, selected_gene):
     
+    interval_50bp_list = range(-750, -250, 50)
     other_genes = [x for x in tf_data.columns if x not in ['Interval', 'TF', 'Type'] + [selected_gene]]
-    tf_data_np = np.array(tf_data)
-    tf_data_geneindex = {gene_name : gene_index for gene_index, gene_name in enumerate(tf_data.columns)}
-    hybrid_promoter = np.zeros(shape = (tf_data.shape[0], len(range(-1000, -250, 50)) * len(other_genes)))
-    tf_data_oriprom = tf_data_np[:, tf_data_geneindex[selected_gene]].copy()
-    tf_data_newnames = []
-    pos_counter = 0
-
-    for i in range(-1000, -250, 50):
-        index = tf_data.Interval == i
-        
-        for other_gene in other_genes:
-        
-            hybrid_promoter_tmp = tf_data_oriprom.copy()
-            tf_data_newnames.append(selected_gene + '_' + other_gene + '_' + str(i).replace('-','m'))
-            
-            #change original prom for the selected interval
-            hybrid_promoter_tmp[index] = tf_data_np[index, tf_data_geneindex[other_gene]]
+    tf_data_np = np.array(tf_data.loc[:, other_genes])
+   
+    hybrid_promoter = np.repeat(np.array(tf_data.loc[:, [selected_gene]].copy()), len(interval_50bp_list) * len(other_genes), axis = 1)
+    hybrid_promoter_names = []
     
-            hybrid_promoter[:, pos_counter] = hybrid_promoter_tmp
-            pos_counter += 1
+    for i, interval in enumerate(interval_50bp_list):
+        index = tf_data.Interval == interval
+        
+        hybrid_promoter_names += [selected_gene + '_' + other_gene + '_' + str(interval).replace('-','m') for other_gene in other_genes]
+      
+        #change original prom for the selected interval
+        hybrid_promoter[index, i * len(other_genes) : (i + 1) * len(other_genes)] = tf_data_np[index, :]
+    
     #combine data
-    hybrid_promoter = pd.DataFrame(hybrid_promoter, columns = tf_data_newnames, dtype = np.float64)
-    hybrid_promoter = tf_data.loc[:,['Interval', 'TF', 'Type']].join(hybrid_promoter)
+    hybrid_promoter = pd.DataFrame(hybrid_promoter, columns = hybrid_promoter_names, dtype = np.float64)
+    for col in ['Type', 'TF', 'Interval']:
+        hybrid_promoter.insert(0, col, tf_data.loc[:,col])
+
     return hybrid_promoter
 
 @st.cache
