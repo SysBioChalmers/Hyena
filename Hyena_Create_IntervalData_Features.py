@@ -52,7 +52,7 @@ def below_zero(data):
 
 print('Start loading and creating features - ' + datetime.now().strftime('%H:%M:%S'))
 
-selected_tfs = ['Cat8','Cbf1', 'Cst6', 'Ert1', 'Gcn4', 'Gcr1', 'Gcr2', 'Hap1', 'Ino2', 'Ino4', 'Leu3', 'Oaf1', 'Pip2', 'Rds2', 'Rgt1', 'Rtg1', 'Rtg3', 'Sip4', 'Stb5', 'Sut1', 'Tye7']
+selected_tfs = ['Cat8','Cbf1', 'Cst6', 'Ert1', 'Gcn4', 'Gcr1', 'Gcr2', 'Hap1', 'Ino2', 'Ino4', 'Leu3', 'Lys14', 'Met4', 'Oaf1', 'Pip2', 'Rds2', 'Rgt1', 'Rtg1', 'Rtg3', 'Sip4', 'Stb5', 'Sut1', 'Tye7']
 
 #Choose a gene list
 selected_genes = [line.strip('\r\n') for line in open('Data/GenesWithTSSAnnotation_Yeast82.csv')]
@@ -181,7 +181,7 @@ for i in range(-1000,500,50):
 tf_data_wide = tf_data_wide.append(tf_data_wide_tfpairs, ignore_index = True)
 
 #save it
-tf_data_wide.to_csv('Data/CombinedTFdata_intervals.csv')
+tf_data_wide.to_csv('Data/CombinedTFdata_intervals2.csv')
 
 
 #create features based on intervals
@@ -201,7 +201,7 @@ tf_data_proc = tf_data_proc.transpose()
 
 #save all data
 tf_data_proc['exp_data'] = exp_data
-tf_data_proc.to_csv('Data/CombinedTFdata_features.csv')
+tf_data_proc.to_csv('Data/CombinedTFdata_features2.csv')
 
 print('Done creating features - ' + datetime.now().strftime('%H:%M:%S'))
     
