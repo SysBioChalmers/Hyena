@@ -52,7 +52,7 @@ def below_zero(data):
 
 print('Start loading and creating features - ' + datetime.now().strftime('%H:%M:%S'))
 
-selected_tfs = ['Cat8','Cbf1', 'Cst6', 'Ert1', 'Gcn4', 'Gcr1', 'Gcr2', 'Hap1', 'Ino2', 'Ino4', 'Leu3', 'Lys14', 'Met4', 'Oaf1', 'Pip2', 'Rds2', 'Rgt1', 'Rtg1', 'Rtg3', 'Sip4', 'Stb5', 'Sut1', 'Tye7']
+selected_tfs = ['Cat8','Cbf1', 'Cst6', 'Ert1', 'Gcn4', 'Gcr1', 'Gcr2', 'Hap1', 'Ino2', 'Ino4', 'Leu3', 'Oaf1', 'Pip2', 'Rds2', 'Rgt1', 'Rtg1', 'Rtg3', 'Sip4', 'Stb5', 'Sut1', 'Tye7']
 
 #Choose a gene list
 selected_genes = [line.strip('\r\n') for line in open('Data/GenesWithTSSAnnotation_Yeast82.csv')]
@@ -77,9 +77,11 @@ print('Done loading data - ' + datetime.now().strftime('%H:%M:%S'))
 
 tf_data_intervals = pd.DataFrame()
 
+data_columns = ['Glu_sum', 'Glu_az', 'Eth_sum', 'Eth_az', 'Diff_sum', 'Diff_az', 'Diff_bz']
+
 for i in range(-1000,500,50):
     tf_data_intervals_tmp = tf_data.loc[(tf_data.Pos >= i) & (tf_data.Pos < i + 50)].groupby(['Gene','TF']).agg({'Glu_Value': ['sum', above_zero], 'Eth_Value': ['sum', above_zero], 'Diff_Value' : ['sum', above_zero, below_zero]})
-    tf_data_intervals_tmp.columns = ['Glu_sum', 'Glu_az', 'Eth_sum', 'Eth_az', 'Diff_sum', 'Diff_az', 'Diff_bz']
+    tf_data_intervals_tmp.columns = data_columns
     for col in ['Glu_az', 'Eth_az', 'Diff_az', 'Diff_bz']:
         tf_data_intervals_tmp[col] = tf_data_intervals_tmp[col].astype(np.int64)
     tf_data_intervals_tmp.loc[:,'Interval'] = i
@@ -95,98 +97,87 @@ tf_data_intervals = tf_data_intervals.loc[:, cols[0:2] + [cols[-1]] + cols[2:-1]
 tf_data_intervals.sort_values(by = ['Gene', 'TF', 'Interval'], inplace = True, ignore_index = True)
 tf_data_intervals = tf_data_intervals.round(decimals = 3)
 
-#set multiindex
-#tf_data_intervals.set_index(['Gene', 'TF', 'Interval'], inplace = True)
-
 #melt it for reordering
-tf_data_intervals = pd.melt(tf_data_intervals, id_vars = ['Gene', 'TF', 'Interval'],
-            value_vars=['Glu_sum', 'Glu_az', 'Eth_sum', 'Eth_az', 'Diff_sum', 'Diff_az', 'Diff_bz'],
+tf_data_intervals = pd.melt(tf_data_intervals, id_vars = ['Gene', 'TF', 'Interval'], value_vars = data_columns,
             var_name = 'Type', value_name = 'Value')
 
+print('Done gattering data - ' + datetime.now().strftime('%H:%M:%S'))
+
 #reorder it into a wide format
-types = ['Glu_sum', 'Glu_az', 'Eth_sum', 'Eth_az', 'Diff_sum', 'Diff_az', 'Diff_bz']
 tf_data_wide = pd.DataFrame(columns = ['Interval', 'TF', 'Type'] + selected_genes)
 tf_data_wide_list = []
+
+#create list of index
+index_interval = {}
+for i in range(-1000,500,50):
+    index_interval[i] = tf_data_intervals.Interval == i
+index_tf = {}
+for tf in selected_tfs:
+    index_tf[tf] = tf_data_intervals.TF == tf
+index_type = {}
+for data_column in data_columns:
+    index_type[data_column] = tf_data_intervals.Type == data_column
+        
 for i in range(-1000,500,50):
     for tf in selected_tfs:
-        for type_name in types:
-                tf_data_wide_tmp = tf_data_intervals.loc[
-                    (tf_data_intervals.TF == tf) & 
-                    (tf_data_intervals.Interval == i) &
-                    (tf_data_intervals.Type == type_name), ['Gene','Value']].set_index('Gene').transpose()
-                
-                tf_data_wide_tmp.loc['Value', 'Interval'] = i
-                tf_data_wide_tmp.loc['Value', 'TF'] = tf
-                tf_data_wide_tmp.loc['Value', 'Type'] = type_name
+        for data_column in data_columns:
+            index_combined = index_interval[i] & index_tf[tf] & index_type[data_column]
+            tf_data_wide_tmp = tf_data_intervals.loc[index_combined, ['Gene','Value']].set_index('Gene').transpose()
+            
+            tf_data_wide_tmp.loc['Value', 'Interval'] = i
+            tf_data_wide_tmp.loc['Value', 'TF'] = tf
+            tf_data_wide_tmp.loc['Value', 'Type'] = data_column
+            
+            tf_data_wide_list.append(tf_data_wide_tmp)
 
-                
-                tf_data_wide_list.append(tf_data_wide_tmp)
+print('Done reordering data part 1 - ' + datetime.now().strftime('%H:%M:%S'))
 
 tf_data_wide = tf_data_wide.append(tf_data_wide_list)
 tf_data_wide.fillna(0, inplace = True)
 tf_data_wide.reset_index(inplace = True)
 tf_data_wide.drop(columns = 'index', inplace = True)
 
-#add sum for all TFs
-tf_data_wide_alltfs = pd.DataFrame(columns = tf_data_wide.columns)
-for i in range(-1000,500,50):
-    for type_name in types:
-        tf_data_wide_tmp = tf_data_wide.loc[(tf_data_wide.Interval == i) & (tf_data_wide.Type == type_name)].drop(columns = ['Interval', 'TF', 'Type']).sum(axis = 0).transpose()
-        tf_data_wide_tmp.loc['Interval'] = i
-        tf_data_wide_tmp.loc['TF'] = 'AllTFs'
-        tf_data_wide_tmp.loc['Type'] = type_name
-        
-        #add it to specific table
-        tf_data_wide_alltfs = tf_data_wide_alltfs.append(tf_data_wide_tmp, ignore_index = True)
-#add it to overall table
-tf_data_wide = tf_data_wide.append(tf_data_wide_alltfs, ignore_index = True)
+print('Done reordering data part 2 - ' + datetime.now().strftime('%H:%M:%S'))
 
 #add sum for TF groups
-tf_data_wide_tfgroups = pd.DataFrame(columns = tf_data_wide.columns)
-groups = {'ZincCluster' : ['Cat8', 'Ert1', 'Hap1', 'Leu3', 'Oaf1', 'Pip2', 'Rds2', 'Rgt1', 'Sip4', 'Sut1', 'Stb5'],
-          'Zipper' : ['Cbf1', 'Gcn4', 'Ino2', 'Ino4', 'Met4', 'Rtg1', 'Rtg3', 'Tye7']}
+groups = {}
+groups['All'] = selected_tfs
+groups['Zipper'] =  ['Cbf1', 'Cst6', 'Gcn4', 'Ino2', 'Ino4', 'Rtg1', 'Rtg3']
+groups['ZincCluster'] = ['Cat8', 'Ert1', 'Hap1', 'Leu3', 'Oaf1', 'Pip2', 'Rds2', 'Rgt1', 'Sip4', 'Sut1', 'Stb5']
+groups['Ino2-Ino4'] = ['Ino2', 'Ino4'] 
+groups['Oaf1-Pip2'] = ['Oaf1', 'Pip2']
+groups['Gcr1-Gcr2'] = ['Gcr1', 'Gcr2']
+groups['Cat8-Sip4'] = ['Cat8', 'Sip4']
+groups['Ert1-Rds2'] = ['Ert1', 'Rds2']
+groups['Rtg1-Rtg3'] = ['Rtg1', 'Rtg3']
 
+tf_data_wide_np = np.array(tf_data_wide.drop(columns = ['Interval', 'TF', 'Type']).transpose())
+tf_data_wide_tfgroups = []
 for i in range(-1000,500,50):
+    index = tf_data_wide.Interval == i
     for group, group_tfs in groups.items():
-        for type_name in types:
-            tf_data_wide_tmp = tf_data_wide.loc[(tf_data_wide.Interval == i) & (tf_data_wide.Type == type_name) & (tf_data_wide.TF.isin(group_tfs))].drop(columns = ['Interval', 'TF', 'Type']).sum(axis = 0).transpose()
+        tf_index = tf_data_wide.TF.isin(group_tfs)
+        for data_column in data_columns:
+            index_combined = index & (tf_data_wide.Type == data_column) & tf_index
+            tf_data_wide_tmp = tf_data_wide_np[:, index_combined].sum(axis = 1)
+            tf_data_wide_tmp = pd.DataFrame(tf_data_wide_tmp, index = selected_genes)
             tf_data_wide_tmp.loc['Interval'] = i
             tf_data_wide_tmp.loc['TF'] = group
-            tf_data_wide_tmp.loc['Type'] = type_name
+            tf_data_wide_tmp.loc['Type'] = data_column
             
-            #add it to specific table
-            tf_data_wide_tfgroups = tf_data_wide_tfgroups.append(tf_data_wide_tmp, ignore_index = True)        
+            #append it to list
+            tf_data_wide_tfgroups.append(tf_data_wide_tmp)
 #add it to overall table
-tf_data_wide = tf_data_wide.append(tf_data_wide_tfgroups, ignore_index = True)
-
-#add sum for TF pairs
-tf_data_wide_tfpairs = pd.DataFrame(columns = tf_data_wide.columns)
-pairs = [['Ino2', 'Ino4'],
-          ['Oaf1', 'Pip2'],
-          ['Gcr1', 'Gcr2'],
-          ['Cat8', 'Sip4'],
-          ['Ert1', 'Rds2'],
-          ['Rtg1', 'Rtg3']]
-for i in range(-1000,500,50):
-    for pair in pairs:
-        for type_name in types:
-            tf_data_wide_tmp = tf_data_wide.loc[(tf_data_wide.Interval == i) & (tf_data_wide.Type == type_name) & (tf_data_wide.TF.isin(pair))].drop(columns = ['Interval', 'TF', 'Type']).sum(axis = 0).transpose()
-            tf_data_wide_tmp.loc['Interval'] = i
-            tf_data_wide_tmp.loc['TF'] = pair[0] + '-' + pair[1]
-            tf_data_wide_tmp.loc['Type'] = type_name
-            
-            #add it to specific table
-            tf_data_wide_tfpairs = tf_data_wide_tfpairs.append(tf_data_wide_tmp, ignore_index = True)        
-#add it to overall table
-tf_data_wide = tf_data_wide.append(tf_data_wide_tfpairs, ignore_index = True)
+tf_data_wide = tf_data_wide.append(pd.concat(tf_data_wide_tfgroups, axis = 1).transpose())
 
 #save it
-tf_data_wide.to_csv('Data/CombinedTFdata_intervals2.csv')
+tf_data_wide.to_csv('Data/CombinedTFdata_intervals.csv')
 
+print('Done creating groups - ' + datetime.now().strftime('%H:%M:%S'))
 
 #create features based on intervals
 interval_list = [[-1000, -500], [-500,0], [0, 500], [-1000, 500]]
-tf_data_proc = []
+tf_features = []
 for interval in interval_list:
     tmp = tf_data_wide.loc[(tf_data_wide.Interval >= interval[0]) & (tf_data_wide.Interval < interval[1])].groupby(['TF','Type']).sum().drop(columns = 'Interval')
     tmp.reset_index(inplace = True)
@@ -194,14 +185,14 @@ for interval in interval_list:
     tmp.loc[:, 'Index'] = tmp.TF + '_' + tmp.Type + '_' + tmp.Interval
     tmp.set_index('Index', inplace = True)
     tmp.drop(columns = ['TF', 'Type', 'Interval'], inplace = True)
-    tf_data_proc.append(tmp)
+    tf_features.append(tmp)
 
-tf_data_proc = pd.concat(tf_data_proc)
-tf_data_proc = tf_data_proc.transpose()
+tf_features = pd.concat(tf_features)
+tf_features = tf_features.transpose()
 
 #save all data
-tf_data_proc['exp_data'] = exp_data
-tf_data_proc.to_csv('Data/CombinedTFdata_features2.csv')
+tf_features['exp_data'] = exp_data
+tf_features.to_csv('Data/CombinedTFdata_features.csv')
 
 print('Done creating features - ' + datetime.now().strftime('%H:%M:%S'))
     
