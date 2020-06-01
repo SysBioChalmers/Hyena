@@ -71,20 +71,21 @@ tf_data_overview.sort_values(by = 'Percent both bound', inplace = True, ascendin
 #give them an plot index
 tf_data_overview.loc[:,'Plot position'] = range(len(tf_list))
 
-plt.figure(figsize = (6,10))
+plt.figure(figsize = (6.7 / 2.54, 12 / 2.54))
+plt.rcParams['font.sans-serif'] = 'Arial'
 ax = plt.gca()
 #plot groups
 for group in tf_groups_color.keys():
     tf_data_overview_tmp = tf_data_overview.loc[tf_data_overview.loc[:, 'TF group'] == group]
     plt.barh(tf_data_overview_tmp.loc[:,'Plot position'], tf_data_overview_tmp.loc[:, 'Percent both bound'], color = tf_groups_color[group], label = group)
 plt.yticks(range(len(tf_data_overview.index)), tf_data_overview.index)
-plt.xlabel('% of genes with tf reads in both conditions', fontSize = 16)
-ax.xaxis.set_tick_params(labelsize = 16)
-ax.yaxis.set_tick_params(labelsize = 16)
+plt.xlabel('% of genes with tf reads\n in both conditions', fontSize = 11)
+ax.xaxis.set_tick_params(labelsize = 11)
+ax.yaxis.set_tick_params(labelsize = 11)
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 plt.ylim(-0.5,20.5)
-plt.legend(fontsize = 16)
+plt.legend(fontsize = 11, bbox_to_anchor=(0.32, 0.21))
 plt.tight_layout()
 plt.savefig('Results/ConditonalTFBinding_PercentOverview.png', dpi = 600, tight = True)
 plt.show()
@@ -94,25 +95,24 @@ plt.show()
 tf_data_overview.sort_values(by = 'Log2 ratio mean', inplace = True, ascending = True)
 #give them an plot index
 tf_data_overview.loc[:,'Plot position'] = range(len(tf_list))
-plt.figure(figsize = (8,10))
+
+plt.figure(figsize = (10.1 / 2.54, 12 / 2.54))
+plt.rcParams['font.sans-serif'] = 'Arial'
 ax = plt.gca()
 plt.axvline(x = 0, ymin = 0, ymax = 1, linewidth = 2, color = 'grey', linestyle = '--')
 #plot groups
 boxplot_groups = {}
 for group in tf_groups_color.keys():
     tf_data_overview_tmp = tf_data_overview.loc[tf_data_overview.loc[:, 'TF group'] == group]
-    boxplot_groups[group] = plt.boxplot(tf_data_overview_tmp.loc[:, 'Log2 ratio list'], positions = tf_data_overview_tmp.loc[:,'Plot position'], patch_artist=True, boxprops = dict(facecolor = tf_groups_color[group]), medianprops=dict(color='white', linewidth = 2), vert=False)
+    boxplot_groups[group] = plt.boxplot(tf_data_overview_tmp.loc[:, 'Log2 ratio list'], positions = tf_data_overview_tmp.loc[:,'Plot position'], patch_artist=True, boxprops = dict(facecolor = tf_groups_color[group]), medianprops=dict(color='white', linewidth = 1.5), vert=False, flierprops = dict(markersize = 4, markeredgecolor = tf_groups_color[group]))
 
 plt.yticks(range(len(tf_data_overview.index)), tf_data_overview.index)
-plt.xlabel('Log2 binding ratio Ethanol / Glucose', fontSize = 16)
-ax.xaxis.set_tick_params(labelsize = 16)
-ax.yaxis.set_tick_params(labelsize = 16)
+plt.xlabel('Log2 binding ratio Ethanol / Glucose', fontSize = 11)
+ax.xaxis.set_tick_params(labelsize = 11)
+ax.yaxis.set_tick_params(labelsize = 11)
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
-plt.ylim()
-[xmin, xmax] = plt.xlim()
-plt.xlim([xmin, xmax + 3])
-plt.legend([x["boxes"][0] for x in boxplot_groups.values()], boxplot_groups.keys(), fontsize = 16)
+plt.legend([x["boxes"][0] for x in boxplot_groups.values()], boxplot_groups.keys(), fontsize = 11,  bbox_to_anchor=(0.72, 0.21))
 plt.tight_layout()
 plt.savefig('Results/ConditonalTFBinding_Log2Ratios.png', dpi = 600, tight = True)
 plt.show()
