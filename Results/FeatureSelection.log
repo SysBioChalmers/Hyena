@@ -1,552 +1,714 @@
-Done loading features - 22:41:13
-[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.6s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    2.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    4.3s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:    6.5s
-[Parallel(n_jobs=-1)]: Done 840 out of 840 | elapsed:    7.0s finished
-Features: 1/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.2s
-[Parallel(n_jobs=-1)]: Done 280 tasks      | elapsed:    2.1s
-[Parallel(n_jobs=-1)]: Done 800 out of 839 | elapsed:    5.9s remaining:    0.3s
-[Parallel(n_jobs=-1)]: Done 839 out of 839 | elapsed:    6.1s finished
-Features: 2/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.2s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    1.5s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    3.5s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:    6.5s
-[Parallel(n_jobs=-1)]: Done 838 out of 838 | elapsed:    7.1s finished
-Features: 3/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.2s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    1.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    4.1s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:    7.4s
-[Parallel(n_jobs=-1)]: Done 837 out of 837 | elapsed:    8.1s finished
-Features: 4/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.2s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    1.8s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    4.3s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:    7.9s
-[Parallel(n_jobs=-1)]: Done 836 out of 836 | elapsed:    8.7s finished
-Features: 5/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.3s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    1.9s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    4.7s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:    8.6s
-[Parallel(n_jobs=-1)]: Done 835 out of 835 | elapsed:    9.4s finished
-Features: 6/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.3s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    2.0s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    5.0s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:    9.3s
-[Parallel(n_jobs=-1)]: Done 834 out of 834 | elapsed:   10.1s finished
-Features: 7/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.3s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    2.2s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    5.4s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:    9.9s
-[Parallel(n_jobs=-1)]: Done 833 out of 833 | elapsed:   10.8s finished
-Features: 8/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.3s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    2.4s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    5.8s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   10.6s
-[Parallel(n_jobs=-1)]: Done 832 out of 832 | elapsed:   11.6s finished
-Features: 9/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.3s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    2.5s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    6.2s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   11.4s
-[Parallel(n_jobs=-1)]: Done 831 out of 831 | elapsed:   12.4s finished
-Features: 10/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.4s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    2.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    6.4s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   11.8s
-[Parallel(n_jobs=-1)]: Done 830 out of 830 | elapsed:   12.8s finished
-Features: 11/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.4s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    2.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    6.6s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   12.1s
-[Parallel(n_jobs=-1)]: Done 829 out of 829 | elapsed:   13.1s finished
-Features: 12/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.4s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    2.7s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    6.7s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   12.4s
-[Parallel(n_jobs=-1)]: Done 828 out of 828 | elapsed:   13.4s finished
-Features: 13/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.4s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    2.8s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    7.0s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   12.9s
-[Parallel(n_jobs=-1)]: Done 827 out of 827 | elapsed:   13.9s finished
-Features: 14/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.4s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    2.9s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    7.2s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   13.2s
-[Parallel(n_jobs=-1)]: Done 826 out of 826 | elapsed:   14.3s finished
-Features: 15/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.4s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    2.9s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    7.4s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   13.5s
-[Parallel(n_jobs=-1)]: Done 825 out of 825 | elapsed:   14.6s finished
-Features: 16/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.4s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.0s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    7.5s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   13.8s
-[Parallel(n_jobs=-1)]: Done 824 out of 824 | elapsed:   14.9s finished
-Features: 17/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.4s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.0s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    7.7s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   14.1s
-[Parallel(n_jobs=-1)]: Done 823 out of 823 | elapsed:   15.2s finished
-Features: 18/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.5s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.2s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    7.8s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   14.4s
-[Parallel(n_jobs=-1)]: Done 822 out of 822 | elapsed:   15.5s finished
-Features: 19/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.4s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.2s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    8.0s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   14.7s
-[Parallel(n_jobs=-1)]: Done 821 out of 821 | elapsed:   15.8s finished
-Features: 20/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.4s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.3s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    8.2s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   15.2s
-[Parallel(n_jobs=-1)]: Done 820 out of 820 | elapsed:   16.3s finished
-Features: 21/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.4s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.3s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    8.4s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   15.4s
-[Parallel(n_jobs=-1)]: Done 819 out of 819 | elapsed:   16.5s finished
-Features: 22/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.5s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.4s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    8.6s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   15.8s
-[Parallel(n_jobs=-1)]: Done 818 out of 818 | elapsed:   16.9s finished
-Features: 23/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.5s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.5s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    8.7s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   16.0s
-[Parallel(n_jobs=-1)]: Done 817 out of 817 | elapsed:   17.2s finished
-Features: 24/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.5s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    8.9s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   16.2s
-[Parallel(n_jobs=-1)]: Done 816 out of 816 | elapsed:   17.4s finished
-Features: 25/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.6s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    9.0s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   16.5s
-[Parallel(n_jobs=-1)]: Done 815 out of 815 | elapsed:   17.7s finished
-Features: 26/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.5s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.8s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    9.3s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   17.2s
-[Parallel(n_jobs=-1)]: Done 814 out of 814 | elapsed:   18.2s finished
-Features: 27/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.5s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.8s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    9.5s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   17.4s
-[Parallel(n_jobs=-1)]: Done 813 out of 813 | elapsed:   18.5s finished
-Features: 28/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.5s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.9s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    9.6s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   17.7s
-[Parallel(n_jobs=-1)]: Done 812 out of 812 | elapsed:   18.9s finished
-Features: 29/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.5s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    3.9s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:    9.9s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   18.1s
-[Parallel(n_jobs=-1)]: Done 811 out of 811 | elapsed:   19.2s finished
-Features: 30/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.6s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.0s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   10.0s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   18.4s
-[Parallel(n_jobs=-1)]: Done 810 out of 810 | elapsed:   19.5s finished
-Features: 31/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.5s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.1s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   10.2s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   18.6s
-[Parallel(n_jobs=-1)]: Done 809 out of 809 | elapsed:   19.7s finished
-Features: 32/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.6s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.1s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   10.3s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   18.9s
-[Parallel(n_jobs=-1)]: Done 808 out of 808 | elapsed:   20.0s finished
-Features: 33/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.6s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.3s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   10.4s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   19.2s
-[Parallel(n_jobs=-1)]: Done 807 out of 807 | elapsed:   20.3s finished
-Features: 34/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.6s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.2s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   10.7s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   19.6s
-[Parallel(n_jobs=-1)]: Done 806 out of 806 | elapsed:   20.7s finished
-Features: 35/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.6s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.4s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   10.9s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   19.9s
-[Parallel(n_jobs=-1)]: Done 805 out of 805 | elapsed:   21.0s finished
-Features: 36/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.6s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.4s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   11.0s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   20.2s
-[Parallel(n_jobs=-1)]: Done 804 out of 804 | elapsed:   21.4s finished
-Features: 37/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.6s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.4s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   11.2s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   20.5s
-[Parallel(n_jobs=-1)]: Done 803 out of 803 | elapsed:   21.6s finished
-Features: 38/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.7s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   11.4s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   20.9s
-[Parallel(n_jobs=-1)]: Done 802 out of 802 | elapsed:   22.0s finished
-Features: 39/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.7s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.7s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   11.6s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   21.2s
-[Parallel(n_jobs=-1)]: Done 801 out of 801 | elapsed:   22.3s finished
-Features: 40/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.6s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.7s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   11.8s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   21.4s
-[Parallel(n_jobs=-1)]: Done 800 out of 800 | elapsed:   22.5s finished
-Features: 41/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.6s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.8s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   11.9s
-[Parallel(n_jobs=-1)]: Done 760 tasks      | elapsed:   21.7s
-[Parallel(n_jobs=-1)]: Done 799 out of 799 | elapsed:   22.8s finished
-Features: 42/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.6s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.9s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   12.1s
-[Parallel(n_jobs=-1)]: Done 798 out of 798 | elapsed:   23.2s finished
-Features: 43/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.7s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.9s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   12.2s
-[Parallel(n_jobs=-1)]: Done 797 out of 797 | elapsed:   23.2s finished
-Features: 44/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.7s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    4.9s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   12.4s
-[Parallel(n_jobs=-1)]: Done 796 out of 796 | elapsed:   23.7s finished
-Features: 45/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.7s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    5.1s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   12.6s
-[Parallel(n_jobs=-1)]: Done 795 out of 795 | elapsed:   24.0s finished
-Features: 46/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    5.2s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   12.8s
-[Parallel(n_jobs=-1)]: Done 794 out of 794 | elapsed:   24.3s finished
-Features: 47/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.7s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    5.2s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   13.0s
-[Parallel(n_jobs=-1)]: Done 793 out of 793 | elapsed:   24.7s finished
-Features: 48/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.7s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    5.3s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   13.1s
-[Parallel(n_jobs=-1)]: Done 792 out of 792 | elapsed:   24.9s finished
-Features: 49/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.7s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    5.4s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   13.3s
-[Parallel(n_jobs=-1)]: Done 791 out of 791 | elapsed:   25.2s finished
-Features: 50/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    5.5s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   13.5s
-[Parallel(n_jobs=-1)]: Done 790 out of 790 | elapsed:   25.6s finished
-Features: 51/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.7s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    5.5s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   13.7s
-[Parallel(n_jobs=-1)]: Done 789 out of 789 | elapsed:   26.0s finished
-Features: 52/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    5.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   13.9s
-[Parallel(n_jobs=-1)]: Done 788 out of 788 | elapsed:   26.4s finished
-Features: 53/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    5.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   14.1s
-[Parallel(n_jobs=-1)]: Done 787 out of 787 | elapsed:   26.7s finished
-Features: 54/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    5.8s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   14.4s
-[Parallel(n_jobs=-1)]: Done 786 out of 786 | elapsed:   27.1s finished
-Features: 55/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    5.8s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   14.4s
-[Parallel(n_jobs=-1)]: Done 785 out of 785 | elapsed:   27.2s finished
-Features: 56/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    5.9s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   14.6s
-[Parallel(n_jobs=-1)]: Done 784 out of 784 | elapsed:   27.5s finished
-Features: 57/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    5.9s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   14.8s
-[Parallel(n_jobs=-1)]: Done 783 out of 783 | elapsed:   27.7s finished
-Features: 58/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    6.0s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   14.9s
-[Parallel(n_jobs=-1)]: Done 782 out of 782 | elapsed:   28.0s finished
-Features: 59/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    6.1s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   15.0s
-[Parallel(n_jobs=-1)]: Done 781 out of 781 | elapsed:   28.2s finished
-Features: 60/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    6.1s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   15.3s
-[Parallel(n_jobs=-1)]: Done 780 out of 780 | elapsed:   28.4s finished
-Features: 61/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    6.2s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   15.4s
-[Parallel(n_jobs=-1)]: Done 779 out of 779 | elapsed:   28.8s finished
-Features: 62/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    6.3s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   15.6s
-[Parallel(n_jobs=-1)]: Done 778 out of 778 | elapsed:   29.0s finished
-Features: 63/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.8s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    6.4s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   15.7s
-[Parallel(n_jobs=-1)]: Done 777 out of 777 | elapsed:   29.3s finished
-Features: 64/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.9s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    6.4s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   15.8s
-[Parallel(n_jobs=-1)]: Done 776 out of 776 | elapsed:   29.5s finished
-Features: 65/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.9s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    6.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   16.2s
-[Parallel(n_jobs=-1)]: Done 775 out of 775 | elapsed:   30.0s finished
-Features: 66/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.9s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    6.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   16.2s
-[Parallel(n_jobs=-1)]: Done 774 out of 774 | elapsed:   30.3s finished
-Features: 67/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.9s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    6.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   16.5s
-[Parallel(n_jobs=-1)]: Done 773 out of 773 | elapsed:   30.4s finished
-Features: 68/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.9s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    6.7s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   16.7s
-[Parallel(n_jobs=-1)]: Done 772 out of 772 | elapsed:   30.9s finished
-Features: 69/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.9s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    6.9s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   16.9s
-[Parallel(n_jobs=-1)]: Done 771 out of 771 | elapsed:   31.2s finished
-Features: 70/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.9s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    6.8s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   17.1s
-[Parallel(n_jobs=-1)]: Done 770 out of 770 | elapsed:   31.4s finished
-Features: 71/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.9s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    7.0s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   17.3s
-[Parallel(n_jobs=-1)]: Done 769 out of 769 | elapsed:   31.9s finished
-Features: 72/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    0.9s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    7.0s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   17.4s
-[Parallel(n_jobs=-1)]: Done 768 out of 768 | elapsed:   32.1s finished
-Features: 73/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.0s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    7.1s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   17.5s
-[Parallel(n_jobs=-1)]: Done 767 out of 767 | elapsed:   32.3s finished
-Features: 74/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.0s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    7.2s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   17.9s
-[Parallel(n_jobs=-1)]: Done 766 out of 766 | elapsed:   32.7s finished
-Features: 75/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.0s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    7.3s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   17.9s
-[Parallel(n_jobs=-1)]: Done 765 out of 765 | elapsed:   32.8s finished
-Features: 76/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.0s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    7.2s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   18.1s
-[Parallel(n_jobs=-1)]: Done 764 out of 764 | elapsed:   33.2s finished
-Features: 77/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.0s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    7.3s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   18.2s
-[Parallel(n_jobs=-1)]: Done 763 out of 763 | elapsed:   33.4s finished
-Features: 78/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.0s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    7.5s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   18.4s
-[Parallel(n_jobs=-1)]: Done 762 out of 762 | elapsed:   33.6s finished
-Features: 79/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.0s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    7.5s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   18.6s
-[Parallel(n_jobs=-1)]: Done 761 out of 761 | elapsed:   33.9s finished
-Features: 80/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.0s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    7.8s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   18.9s
-[Parallel(n_jobs=-1)]: Done 760 out of 760 | elapsed:   34.5s finished
-Features: 81/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.0s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    7.7s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   19.2s
-[Parallel(n_jobs=-1)]: Done 759 out of 759 | elapsed:   34.7s finished
-Features: 82/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.1s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    7.9s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   19.2s
-[Parallel(n_jobs=-1)]: Done 758 out of 758 | elapsed:   35.0s finished
-Features: 83/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.1s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.2s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   19.7s
-[Parallel(n_jobs=-1)]: Done 757 out of 757 | elapsed:   35.6s finished
-Features: 84/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.1s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.0s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   19.7s
-[Parallel(n_jobs=-1)]: Done 756 out of 756 | elapsed:   35.6s finished
-Features: 85/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.1s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.0s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   19.8s
-[Parallel(n_jobs=-1)]: Done 755 out of 755 | elapsed:   35.9s finished
-Features: 86/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.1s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.1s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   20.1s
-[Parallel(n_jobs=-1)]: Done 754 out of 754 | elapsed:   36.3s finished
-Features: 87/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.1s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.2s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   20.3s
-[Parallel(n_jobs=-1)]: Done 753 out of 753 | elapsed:   36.7s finished
-Features: 88/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.1s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.5s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   20.5s
-[Parallel(n_jobs=-1)]: Done 752 out of 752 | elapsed:   36.8s finished
-Features: 89/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.1s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.5s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   20.5s
-[Parallel(n_jobs=-1)]: Done 751 out of 751 | elapsed:   37.0s finished
-Features: 90/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.2s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.4s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   20.8s
-[Parallel(n_jobs=-1)]: Done 750 out of 750 | elapsed:   37.4s finished
-Features: 91/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.2s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   21.1s
-[Parallel(n_jobs=-1)]: Done 749 out of 749 | elapsed:   37.8s finished
-Features: 92/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.2s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.6s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   21.1s
-[Parallel(n_jobs=-1)]: Done 748 out of 748 | elapsed:   37.8s finished
-Features: 93/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.2s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.7s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   21.4s
-[Parallel(n_jobs=-1)]: Done 747 out of 747 | elapsed:   38.3s finished
-Features: 94/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.2s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.8s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   21.6s
-[Parallel(n_jobs=-1)]: Done 746 out of 746 | elapsed:   38.5s finished
-Features: 95/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.2s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.8s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   21.9s
-[Parallel(n_jobs=-1)]: Done 745 out of 745 | elapsed:   38.9s finished
-Features: 96/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.2s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    8.9s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   21.9s
-[Parallel(n_jobs=-1)]: Done 744 out of 744 | elapsed:   39.1s finished
-Features: 97/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.2s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    9.0s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   22.0s
-[Parallel(n_jobs=-1)]: Done 743 out of 743 | elapsed:   39.4s finished
-Features: 98/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.2s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    9.1s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   22.3s
-[Parallel(n_jobs=-1)]: Done 742 out of 742 | elapsed:   39.7s finished
-Features: 99/100[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 tasks      | elapsed:    1.2s
-[Parallel(n_jobs=-1)]: Done 160 tasks      | elapsed:    9.2s
-[Parallel(n_jobs=-1)]: Done 410 tasks      | elapsed:   22.6s
-[Parallel(n_jobs=-1)]: Done 741 out of 741 | elapsed:   40.1s finished
-Features: 100/100
+Done loading CombinedTFdata_features_SumAzBz - 14:42:04
+Model settings:
+{'objective': 'reg:squarederror', 'base_score': None, 'booster': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 1.0, 'gamma': None, 'gpu_id': None, 'importance_type': 'gain', 'interaction_constraints': None, 'learning_rate': 0.1, 'max_delta_step': None, 'max_depth': 3, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'scale_pos_weight': None, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None, 'seed': 1234}
 
-Done feature selection - 23:22:56
-Optimal number of features : 32 out of 840
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    2.5s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    4.0s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:    6.0s
+[Parallel(n_jobs=-1)]: Done 840 out of 840 | elapsed:    7.7s finished
+
+[2020-05-29 14:42:12] Features: 1/100 -- score: 0.1795195614179798[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.2s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    1.2s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    2.9s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:    5.2s
+[Parallel(n_jobs=-1)]: Done 839 out of 839 | elapsed:    7.2s finished
+
+[2020-05-29 14:42:19] Features: 2/100 -- score: 0.2615828404816586[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.2s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    1.3s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    3.2s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:    5.9s
+[Parallel(n_jobs=-1)]: Done 838 out of 838 | elapsed:    8.1s finished
+
+[2020-05-29 14:42:27] Features: 3/100 -- score: 0.3263035893818383[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    3.6s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:    6.6s
+[Parallel(n_jobs=-1)]: Done 837 out of 837 | elapsed:    9.2s finished
+
+[2020-05-29 14:42:36] Features: 4/100 -- score: 0.3706112400073196[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    1.7s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    4.2s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:    7.5s
+[Parallel(n_jobs=-1)]: Done 836 out of 836 | elapsed:   10.3s finished
+
+[2020-05-29 14:42:47] Features: 5/100 -- score: 0.41722623998073927[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    1.9s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    4.5s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:    8.2s
+[Parallel(n_jobs=-1)]: Done 835 out of 835 | elapsed:   11.3s finished
+
+[2020-05-29 14:42:58] Features: 6/100 -- score: 0.4339404935310448[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    2.0s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    4.8s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:    8.8s
+[Parallel(n_jobs=-1)]: Done 834 out of 834 | elapsed:   12.0s finished
+
+[2020-05-29 14:43:10] Features: 7/100 -- score: 0.44719331386241246[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    2.2s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    5.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:    9.3s
+[Parallel(n_jobs=-1)]: Done 833 out of 833 | elapsed:   12.7s finished
+
+[2020-05-29 14:43:23] Features: 8/100 -- score: 0.4564358150726283[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    2.2s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    5.4s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:    9.8s
+[Parallel(n_jobs=-1)]: Done 832 out of 832 | elapsed:   13.4s finished
+
+[2020-05-29 14:43:36] Features: 9/100 -- score: 0.45433221326284345[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    2.3s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    5.7s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   10.3s
+[Parallel(n_jobs=-1)]: Done 831 out of 831 | elapsed:   14.0s finished
+
+[2020-05-29 14:43:50] Features: 10/100 -- score: 0.45846143973485365[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    2.6s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    6.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   11.1s
+[Parallel(n_jobs=-1)]: Done 830 out of 830 | elapsed:   15.1s finished
+
+[2020-05-29 14:44:05] Features: 11/100 -- score: 0.4622164684311871[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    2.6s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    6.3s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   11.5s
+[Parallel(n_jobs=-1)]: Done 829 out of 829 | elapsed:   15.6s finished
+
+[2020-05-29 14:44:21] Features: 12/100 -- score: 0.46717992059281865[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    2.8s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    6.6s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   12.1s
+[Parallel(n_jobs=-1)]: Done 828 out of 828 | elapsed:   16.4s finished
+
+[2020-05-29 14:44:38] Features: 13/100 -- score: 0.4708639984938559[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.5s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    2.9s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    6.9s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   12.7s
+[Parallel(n_jobs=-1)]: Done 827 out of 827 | elapsed:   17.2s finished
+
+[2020-05-29 14:44:55] Features: 14/100 -- score: 0.4763660054093332[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    3.0s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    7.3s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   13.3s
+[Parallel(n_jobs=-1)]: Done 826 out of 826 | elapsed:   18.0s finished
+
+[2020-05-29 14:45:13] Features: 15/100 -- score: 0.48548938921823603[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.5s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    3.1s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    7.5s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   13.7s
+[Parallel(n_jobs=-1)]: Done 825 out of 825 | elapsed:   18.5s finished
+
+[2020-05-29 14:45:31] Features: 16/100 -- score: 0.48997766005833954[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.5s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    3.2s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    7.7s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   14.1s
+[Parallel(n_jobs=-1)]: Done 824 out of 824 | elapsed:   19.0s finished
+
+[2020-05-29 14:45:50] Features: 17/100 -- score: 0.491541413489842[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.5s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    3.3s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    7.9s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   14.4s
+[Parallel(n_jobs=-1)]: Done 823 out of 823 | elapsed:   19.5s finished
+
+[2020-05-29 14:46:10] Features: 18/100 -- score: 0.4980918658686363[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.5s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    3.4s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    8.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   14.9s
+[Parallel(n_jobs=-1)]: Done 822 out of 822 | elapsed:   20.1s finished
+
+[2020-05-29 14:46:30] Features: 19/100 -- score: 0.5003941693632965[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.5s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    3.5s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    8.4s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   15.4s
+[Parallel(n_jobs=-1)]: Done 821 out of 821 | elapsed:   20.7s finished
+
+[2020-05-29 14:46:51] Features: 20/100 -- score: 0.5099533996398671[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.5s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    8.7s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   16.0s
+[Parallel(n_jobs=-1)]: Done 820 out of 820 | elapsed:   21.3s finished
+
+[2020-05-29 14:47:12] Features: 21/100 -- score: 0.5162627038357137[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    9.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   16.7s
+[Parallel(n_jobs=-1)]: Done 819 out of 819 | elapsed:   22.2s finished
+
+[2020-05-29 14:47:34] Features: 22/100 -- score: 0.5199556531852098[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    3.8s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    9.3s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   17.0s
+[Parallel(n_jobs=-1)]: Done 818 out of 818 | elapsed:   22.7s finished
+
+[2020-05-29 14:47:57] Features: 23/100 -- score: 0.5207547593146982[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    3.9s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    9.5s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   17.3s
+[Parallel(n_jobs=-1)]: Done 817 out of 817 | elapsed:   23.1s finished
+
+[2020-05-29 14:48:20] Features: 24/100 -- score: 0.5223630810504896[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.1s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:    9.7s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   17.7s
+[Parallel(n_jobs=-1)]: Done 816 out of 816 | elapsed:   23.6s finished
+
+[2020-05-29 14:48:44] Features: 25/100 -- score: 0.5242677159209679[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.2s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   10.0s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   18.1s
+[Parallel(n_jobs=-1)]: Done 815 out of 815 | elapsed:   24.0s finished
+
+[2020-05-29 14:49:08] Features: 26/100 -- score: 0.5244661608173633[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.1s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   10.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   18.4s
+[Parallel(n_jobs=-1)]: Done 814 out of 814 | elapsed:   24.6s finished
+
+[2020-05-29 14:49:33] Features: 27/100 -- score: 0.5242738304750103[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.2s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   10.2s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   18.7s
+[Parallel(n_jobs=-1)]: Done 813 out of 813 | elapsed:   24.8s finished
+
+[2020-05-29 14:49:57] Features: 28/100 -- score: 0.5234777462703664[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.7s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.3s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   10.4s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   18.9s
+[Parallel(n_jobs=-1)]: Done 812 out of 812 | elapsed:   25.1s finished
+
+[2020-05-29 14:50:22] Features: 29/100 -- score: 0.5236857780374733[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.3s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   10.5s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   19.2s
+[Parallel(n_jobs=-1)]: Done 811 out of 811 | elapsed:   25.5s finished
+
+[2020-05-29 14:50:48] Features: 30/100 -- score: 0.5227986204719771[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.6s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.4s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   10.7s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   19.5s
+[Parallel(n_jobs=-1)]: Done 810 out of 810 | elapsed:   25.8s finished
+
+[2020-05-29 14:51:14] Features: 31/100 -- score: 0.5227986204719771[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.7s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.5s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   10.9s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   19.8s
+[Parallel(n_jobs=-1)]: Done 809 out of 809 | elapsed:   26.2s finished
+
+[2020-05-29 14:51:40] Features: 32/100 -- score: 0.5213442297101651[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.7s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.5s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   11.0s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   20.0s
+[Parallel(n_jobs=-1)]: Done 808 out of 808 | elapsed:   26.5s finished
+
+[2020-05-29 14:52:07] Features: 33/100 -- score: 0.5184575884675471[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.7s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.6s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   11.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   20.3s
+[Parallel(n_jobs=-1)]: Done 807 out of 807 | elapsed:   26.9s finished
+
+[2020-05-29 14:52:34] Features: 34/100 -- score: 0.5189927606106596[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.7s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.7s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   11.4s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   20.7s
+[Parallel(n_jobs=-1)]: Done 806 out of 806 | elapsed:   27.3s finished
+
+[2020-05-29 14:53:01] Features: 35/100 -- score: 0.5202021184947412[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.7s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.7s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   11.6s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   21.0s
+[Parallel(n_jobs=-1)]: Done 805 out of 805 | elapsed:   27.7s finished
+
+[2020-05-29 14:53:29] Features: 36/100 -- score: 0.5202021184947412[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.7s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.8s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   11.7s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   21.4s
+[Parallel(n_jobs=-1)]: Done 804 out of 804 | elapsed:   28.1s finished
+
+[2020-05-29 14:53:57] Features: 37/100 -- score: 0.5197571775146225[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.8s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    4.9s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   11.9s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   21.7s
+[Parallel(n_jobs=-1)]: Done 803 out of 803 | elapsed:   28.6s finished
+
+[2020-05-29 14:54:25] Features: 38/100 -- score: 0.5182060331328449[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.7s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    5.0s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   12.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   22.1s
+[Parallel(n_jobs=-1)]: Done 802 out of 802 | elapsed:   29.0s finished
+
+[2020-05-29 14:54:54] Features: 39/100 -- score: 0.5171174332346177[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.8s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    5.0s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   12.3s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   22.4s
+[Parallel(n_jobs=-1)]: Done 801 out of 801 | elapsed:   29.4s finished
+
+[2020-05-29 14:55:24] Features: 40/100 -- score: 0.5162956426599339[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.8s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    5.1s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   12.5s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   22.8s
+[Parallel(n_jobs=-1)]: Done 800 out of 800 | elapsed:   29.8s finished
+
+[2020-05-29 14:55:54] Features: 41/100 -- score: 0.5166450133805944[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.8s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    5.2s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   12.6s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   23.1s
+[Parallel(n_jobs=-1)]: Done 799 out of 799 | elapsed:   30.2s finished
+
+[2020-05-29 14:56:24] Features: 42/100 -- score: 0.5169507611374108[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.8s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    5.3s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   12.8s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   23.5s
+[Parallel(n_jobs=-1)]: Done 798 out of 798 | elapsed:   30.6s finished
+
+[2020-05-29 14:56:55] Features: 43/100 -- score: 0.5148472527508428[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.8s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    5.4s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   13.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   23.9s
+[Parallel(n_jobs=-1)]: Done 797 out of 797 | elapsed:   31.0s finished
+
+[2020-05-29 14:57:26] Features: 44/100 -- score: 0.514498992551399[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.8s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    5.4s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   13.3s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   24.3s
+[Parallel(n_jobs=-1)]: Done 796 out of 796 | elapsed:   31.5s finished
+
+[2020-05-29 14:57:57] Features: 45/100 -- score: 0.5152858482872891[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.8s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    5.6s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   13.5s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   24.6s
+[Parallel(n_jobs=-1)]: Done 795 out of 795 | elapsed:   31.9s finished
+
+[2020-05-29 14:58:29] Features: 46/100 -- score: 0.5143861325049732[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.8s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    5.6s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   13.8s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   25.1s
+[Parallel(n_jobs=-1)]: Done 794 out of 794 | elapsed:   32.4s finished
+
+[2020-05-29 14:59:02] Features: 47/100 -- score: 0.5138553359505735[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.9s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    5.8s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   14.0s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   25.5s
+[Parallel(n_jobs=-1)]: Done 793 out of 793 | elapsed:   33.1s finished
+
+[2020-05-29 14:59:35] Features: 48/100 -- score: 0.5144936021808981[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.8s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    5.7s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   14.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   25.7s
+[Parallel(n_jobs=-1)]: Done 792 out of 792 | elapsed:   33.2s finished
+
+[2020-05-29 15:00:08] Features: 49/100 -- score: 0.5142609835596136[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.9s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    5.8s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   14.3s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   26.0s
+[Parallel(n_jobs=-1)]: Done 791 out of 791 | elapsed:   33.6s finished
+
+[2020-05-29 15:00:42] Features: 50/100 -- score: 0.5142609835596136[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.9s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    5.9s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   14.4s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   26.3s
+[Parallel(n_jobs=-1)]: Done 790 out of 790 | elapsed:   34.0s finished
+
+[2020-05-29 15:01:16] Features: 51/100 -- score: 0.5129287328106681[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.9s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    6.0s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   14.6s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   26.7s
+[Parallel(n_jobs=-1)]: Done 789 out of 789 | elapsed:   34.4s finished
+
+[2020-05-29 15:01:50] Features: 52/100 -- score: 0.5136815153283631[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.9s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    6.1s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   14.8s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   27.0s
+[Parallel(n_jobs=-1)]: Done 788 out of 788 | elapsed:   34.8s finished
+
+[2020-05-29 15:02:25] Features: 53/100 -- score: 0.5127694670918318[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.9s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    6.1s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   15.0s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   27.4s
+[Parallel(n_jobs=-1)]: Done 787 out of 787 | elapsed:   35.2s finished
+
+[2020-05-29 15:03:00] Features: 54/100 -- score: 0.5140090611160832[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.9s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    6.2s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   15.2s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   27.8s
+[Parallel(n_jobs=-1)]: Done 786 out of 786 | elapsed:   35.8s finished
+
+[2020-05-29 15:03:36] Features: 55/100 -- score: 0.5150284236051432[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    0.9s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    6.4s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   15.5s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   28.2s
+[Parallel(n_jobs=-1)]: Done 785 out of 785 | elapsed:   36.2s finished
+
+[2020-05-29 15:04:12] Features: 56/100 -- score: 0.5159918787876758[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.0s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    6.4s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   15.6s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   28.7s
+[Parallel(n_jobs=-1)]: Done 784 out of 784 | elapsed:   36.6s finished
+
+[2020-05-29 15:04:49] Features: 57/100 -- score: 0.5131315616412844[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.0s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    6.6s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   16.0s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   29.2s
+[Parallel(n_jobs=-1)]: Done 783 out of 783 | elapsed:   37.5s finished
+
+[2020-05-29 15:05:26] Features: 58/100 -- score: 0.5158358225507934[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.0s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    6.6s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   16.2s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   29.5s
+[Parallel(n_jobs=-1)]: Done 782 out of 782 | elapsed:   37.8s finished
+
+[2020-05-29 15:06:04] Features: 59/100 -- score: 0.5167527058832865[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.0s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    6.7s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   16.4s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   29.9s
+[Parallel(n_jobs=-1)]: Done 781 out of 781 | elapsed:   38.2s finished
+
+[2020-05-29 15:06:42] Features: 60/100 -- score: 0.5150211057009751[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.0s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    6.8s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   16.5s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   30.2s
+[Parallel(n_jobs=-1)]: Done 780 out of 780 | elapsed:   38.6s finished
+
+[2020-05-29 15:07:21] Features: 61/100 -- score: 0.5139872762284408[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.0s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    6.9s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   16.7s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   30.6s
+[Parallel(n_jobs=-1)]: Done 779 out of 779 | elapsed:   39.0s finished
+
+[2020-05-29 15:08:00] Features: 62/100 -- score: 0.5136578850955656[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.1s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    6.9s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   17.0s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   31.0s
+[Parallel(n_jobs=-1)]: Done 778 out of 778 | elapsed:   39.4s finished
+
+[2020-05-29 15:08:40] Features: 63/100 -- score: 0.5163173101835421[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.1s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    7.1s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   17.2s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   31.4s
+[Parallel(n_jobs=-1)]: Done 777 out of 777 | elapsed:   39.8s finished
+
+[2020-05-29 15:09:19] Features: 64/100 -- score: 0.5150217268486343[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.0s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    7.2s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   17.5s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   31.9s
+[Parallel(n_jobs=-1)]: Done 776 out of 776 | elapsed:   40.4s finished
+
+[2020-05-29 15:10:00] Features: 65/100 -- score: 0.513415049570478[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.1s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    7.3s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   17.7s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   32.2s
+[Parallel(n_jobs=-1)]: Done 775 out of 775 | elapsed:   40.8s finished
+
+[2020-05-29 15:10:41] Features: 66/100 -- score: 0.5142700450092527[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.1s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    7.3s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   17.9s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   32.8s
+[Parallel(n_jobs=-1)]: Done 774 out of 774 | elapsed:   41.3s finished
+
+[2020-05-29 15:11:22] Features: 67/100 -- score: 0.5132979486011922[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.1s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    7.4s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   18.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   33.1s
+[Parallel(n_jobs=-1)]: Done 773 out of 773 | elapsed:   41.8s finished
+
+[2020-05-29 15:12:04] Features: 68/100 -- score: 0.51237092270852[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.1s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    7.5s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   18.3s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   33.5s
+[Parallel(n_jobs=-1)]: Done 772 out of 772 | elapsed:   42.1s finished
+
+[2020-05-29 15:12:46] Features: 69/100 -- score: 0.51237092270852[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.1s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    7.6s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   18.5s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   33.8s
+[Parallel(n_jobs=-1)]: Done 771 out of 771 | elapsed:   42.5s finished
+
+[2020-05-29 15:13:29] Features: 70/100 -- score: 0.5109300649328892[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.1s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    7.7s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   18.7s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   34.1s
+[Parallel(n_jobs=-1)]: Done 770 out of 770 | elapsed:   43.0s finished
+
+[2020-05-29 15:14:12] Features: 71/100 -- score: 0.5148675577181258[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.1s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    7.8s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   19.0s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   34.7s
+[Parallel(n_jobs=-1)]: Done 769 out of 769 | elapsed:   43.6s finished
+
+[2020-05-29 15:14:55] Features: 72/100 -- score: 0.5144170190287356[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.2s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    7.8s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   19.0s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   34.7s
+[Parallel(n_jobs=-1)]: Done 768 out of 768 | elapsed:   43.6s finished
+
+[2020-05-29 15:15:39] Features: 73/100 -- score: 0.5167187111906607[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.2s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    7.9s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   19.2s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   35.2s
+[Parallel(n_jobs=-1)]: Done 767 out of 767 | elapsed:   44.1s finished
+
+[2020-05-29 15:16:23] Features: 74/100 -- score: 0.5169114530701038[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.1s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    8.0s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   19.5s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   35.5s
+[Parallel(n_jobs=-1)]: Done 766 out of 766 | elapsed:   44.5s finished
+
+[2020-05-29 15:17:08] Features: 75/100 -- score: 0.5169114530701038[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.2s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    8.1s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   19.7s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   35.9s
+[Parallel(n_jobs=-1)]: Done 765 out of 765 | elapsed:   45.0s finished
+
+[2020-05-29 15:17:53] Features: 76/100 -- score: 0.5170740118606485[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.2s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    8.1s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   19.8s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   36.2s
+[Parallel(n_jobs=-1)]: Done 764 out of 764 | elapsed:   45.3s finished
+
+[2020-05-29 15:18:38] Features: 77/100 -- score: 0.5170740118606485[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.2s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    8.2s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   20.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   36.7s
+[Parallel(n_jobs=-1)]: Done 763 out of 763 | elapsed:   45.7s finished
+
+[2020-05-29 15:19:24] Features: 78/100 -- score: 0.5152565819909564[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.2s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    8.3s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   20.2s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   36.9s
+[Parallel(n_jobs=-1)]: Done 762 out of 762 | elapsed:   46.0s finished
+
+[2020-05-29 15:20:10] Features: 79/100 -- score: 0.5142731694182855[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.2s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    8.4s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   20.4s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   37.3s
+[Parallel(n_jobs=-1)]: Done 761 out of 761 | elapsed:   46.3s finished
+
+[2020-05-29 15:20:56] Features: 80/100 -- score: 0.5148153954234547[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.2s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    8.4s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   20.6s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   37.6s
+[Parallel(n_jobs=-1)]: Done 760 out of 760 | elapsed:   46.8s finished
+
+[2020-05-29 15:21:43] Features: 81/100 -- score: 0.51650931782879[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    8.5s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   20.8s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   37.8s
+[Parallel(n_jobs=-1)]: Done 759 out of 759 | elapsed:   47.2s finished
+
+[2020-05-29 15:22:30] Features: 82/100 -- score: 0.51650931782879[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.2s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    8.6s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   21.0s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   38.3s
+[Parallel(n_jobs=-1)]: Done 758 out of 758 | elapsed:   47.4s finished
+
+[2020-05-29 15:23:18] Features: 83/100 -- score: 0.5153666148033984[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    8.6s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   21.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   38.7s
+[Parallel(n_jobs=-1)]: Done 757 out of 757 | elapsed:   47.7s finished
+
+[2020-05-29 15:24:05] Features: 84/100 -- score: 0.5161932982268701[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    8.8s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   21.6s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   39.3s
+[Parallel(n_jobs=-1)]: Done 756 out of 756 | elapsed:   48.4s finished
+
+[2020-05-29 15:24:54] Features: 85/100 -- score: 0.515849749657716[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    8.9s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   21.6s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   39.5s
+[Parallel(n_jobs=-1)]: Done 755 out of 755 | elapsed:   48.7s finished
+
+[2020-05-29 15:25:43] Features: 86/100 -- score: 0.5151721491407414[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    8.9s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   21.9s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   40.0s
+[Parallel(n_jobs=-1)]: Done 754 out of 754 | elapsed:   49.2s finished
+
+[2020-05-29 15:26:32] Features: 87/100 -- score: 0.5137920427922389[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    9.0s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   22.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   40.4s
+[Parallel(n_jobs=-1)]: Done 753 out of 753 | elapsed:   49.5s finished
+
+[2020-05-29 15:27:21] Features: 88/100 -- score: 0.5116814735805076[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    9.1s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   22.2s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   40.7s
+[Parallel(n_jobs=-1)]: Done 752 out of 752 | elapsed:   50.0s finished
+
+[2020-05-29 15:28:11] Features: 89/100 -- score: 0.512909275641443[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.3s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    9.1s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   22.4s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   41.0s
+[Parallel(n_jobs=-1)]: Done 751 out of 751 | elapsed:   50.3s finished
+
+[2020-05-29 15:29:02] Features: 90/100 -- score: 0.5104572835905336[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    9.4s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   22.9s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   41.7s
+[Parallel(n_jobs=-1)]: Done 750 out of 750 | elapsed:   51.1s finished
+
+[2020-05-29 15:29:53] Features: 91/100 -- score: 0.5127561650204441[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    9.4s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   23.0s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   42.1s
+[Parallel(n_jobs=-1)]: Done 749 out of 749 | elapsed:   51.5s finished
+
+[2020-05-29 15:30:45] Features: 92/100 -- score: 0.5132714416636521[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    9.5s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   23.3s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   42.5s
+[Parallel(n_jobs=-1)]: Done 748 out of 748 | elapsed:   51.9s finished
+
+[2020-05-29 15:31:37] Features: 93/100 -- score: 0.5115520898867699[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    9.6s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   23.4s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   42.7s
+[Parallel(n_jobs=-1)]: Done 747 out of 747 | elapsed:   52.2s finished
+
+[2020-05-29 15:32:29] Features: 94/100 -- score: 0.5147822217722926[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    9.7s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   23.6s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   43.1s
+[Parallel(n_jobs=-1)]: Done 746 out of 746 | elapsed:   52.6s finished
+
+[2020-05-29 15:33:21] Features: 95/100 -- score: 0.5130433746752119[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    9.8s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   24.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   44.1s
+[Parallel(n_jobs=-1)]: Done 745 out of 745 | elapsed:   53.7s finished
+
+[2020-05-29 15:34:15] Features: 96/100 -- score: 0.5125929038350951[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:    9.9s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   24.4s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   44.5s
+[Parallel(n_jobs=-1)]: Done 744 out of 744 | elapsed:   54.2s finished
+
+[2020-05-29 15:35:09] Features: 97/100 -- score: 0.5125440235951529[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:   10.0s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   24.4s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   44.7s
+[Parallel(n_jobs=-1)]: Done 743 out of 743 | elapsed:   54.4s finished
+
+[2020-05-29 15:36:04] Features: 98/100 -- score: 0.5122304904767703[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:   10.3s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   25.0s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   45.7s
+[Parallel(n_jobs=-1)]: Done 742 out of 742 | elapsed:   55.6s finished
+
+[2020-05-29 15:37:00] Features: 99/100 -- score: 0.5137344071632839[Parallel(n_jobs=-1)]: Using backend LokyBackend with 20 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=-1)]: Done 122 tasks      | elapsed:   10.3s
+[Parallel(n_jobs=-1)]: Done 325 tasks      | elapsed:   25.1s
+[Parallel(n_jobs=-1)]: Done 608 tasks      | elapsed:   46.1s
+[Parallel(n_jobs=-1)]: Done 741 out of 741 | elapsed:   56.0s finished
+
+[2020-05-29 15:37:56] Features: 100/100 -- score: 0.5142137680180638
+
+Done feature selection - 15:37:56
+Optimal number of features : 26 out of 840
 All Features
-MSE: 0.136
-R2: 0.372
+MSE: 0.138
+R2: 0.362
 Selected Features
-MSE: 0.109
-R2: 0.498
+MSE: 0.104
+R2: 0.519
