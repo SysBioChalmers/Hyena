@@ -79,9 +79,10 @@ for group in tf_groups_color.keys():
     tf_data_overview_tmp = tf_data_overview.loc[tf_data_overview.loc[:, 'TF group'] == group]
     plt.barh(tf_data_overview_tmp.loc[:,'Plot position'], tf_data_overview_tmp.loc[:, 'Percent both bound'], color = tf_groups_color[group], label = group)
 plt.yticks(range(len(tf_data_overview.index)), tf_data_overview.index)
-plt.xlabel('% of genes with tf reads\n in both conditions', fontSize = 11)
+plt.xlabel('Genes with binding in both conditions', fontSize = 11)
 ax.xaxis.set_tick_params(labelsize = 11)
 ax.yaxis.set_tick_params(labelsize = 11)
+ax.set_xticklabels(['0%', '50%', '100%'])
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 plt.ylim(-0.5,20.5)

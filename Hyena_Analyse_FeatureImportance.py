@@ -16,6 +16,12 @@ model = pickle.load(open('Results/' + model_name + '.pkl', 'rb'))
 
 #get feature importance and convert into list
 feature_importance = [[key, value] for key, value in model.get_booster().get_score(importance_type='gain').items()]
+
+#add features with 0 importance
+for feature in model.get_booster().feature_names:
+    if feature not in [x[0] for x in feature_importance]:
+        feature_importance.append([feature, 0])
+        
 feature_importance.sort(key = lambda x: x[1], reverse = False)
 
 # #Plot feature importance
@@ -44,8 +50,8 @@ for key in key_list:
     feature_importance_split['interval'][new_key] = feature_importance_split['interval'].pop(key)
     
 #change feature type name
-feature_importance_split['feature type']['Pos > zero'] = feature_importance_split['feature type'].pop('az')
-feature_importance_split['feature type']['Pos < zero'] = feature_importance_split['feature type'].pop('bz')
+feature_importance_split['feature type']['Count > 0'] = feature_importance_split['feature type'].pop('az')
+feature_importance_split['feature type']['Count < 0'] = feature_importance_split['feature type'].pop('bz')
 
 #convert dict into list for sorting
 feature_importance_split_list = {x : [] for x in feature_importance_split.keys()}
