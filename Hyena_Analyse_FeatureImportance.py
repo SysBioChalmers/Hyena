@@ -18,17 +18,17 @@ model = pickle.load(open('Results/' + model_name + '.pkl', 'rb'))
 feature_importance = [[key, value] for key, value in model.get_booster().get_score(importance_type='gain').items()]
 feature_importance.sort(key = lambda x: x[1], reverse = False)
 
-#Plot feature importance
-plt.figure(figsize = (6,16))
-ax = plt.gca()
-plt.barh([x[0] for x in feature_importance], [x[1] for x in feature_importance])
-plt.xlabel('Feature importance', fontSize = 13)
-ax.xaxis.set_tick_params(labelsize = 13)
-ax.yaxis.set_tick_params(labelsize = 13)
-ax.spines['top'].set_visible(False)
-ax.spines['right'].set_visible(False)
-plt.savefig('Results/FeatureImportance_' + model_name + '.png', dpi = 300, bbox_inches = 'tight')
-plt.show()
+# #Plot feature importance
+# plt.figure(figsize = (6,16))
+# ax = plt.gca()
+# plt.barh([x[0] for x in feature_importance], [x[1] for x in feature_importance])
+# plt.xlabel('Feature importance', fontSize = 13)
+# ax.xaxis.set_tick_params(labelsize = 13)
+# ax.yaxis.set_tick_params(labelsize = 13)
+# ax.spines['top'].set_visible(False)
+# ax.spines['right'].set_visible(False)
+# plt.savefig('Results/FeatureImportance_' + model_name + '.png', dpi = 300, bbox_inches = 'tight')
+# plt.show()
 
 #Split feature importance by TF, type, condition and interval
 feature_importance_categories = ['tf', 'condition', 'feature type', 'interval']
@@ -59,7 +59,8 @@ feature_importance_split_list['tf'].sort(key = lambda x: x[1], reverse = False)
 
 
 
-plt.figure(figsize = (12,12))
+plt.figure(figsize = (16.8 / 2.54, 16.8 / 2.54))
+plt.rcParams['font.sans-serif'] = 'Arial'
 ax = {}
 ax[1] = plt.subplot2grid((3, 2), (0, 0), rowspan=3)
 ax[2] = plt.subplot2grid((3, 2), (0, 1))
@@ -67,21 +68,23 @@ ax[3] = plt.subplot2grid((3, 2), (1, 1))
 ax[4] = plt.subplot2grid((3, 2), (2, 1))
 
 ax[1].barh([x[0] for x in feature_importance_split_list['tf']], [x[1] for x in feature_importance_split_list['tf']])
-ax[1].set_xlabel('Average feature importance', fontSize = 14)
-ax[1].xaxis.set_tick_params(labelsize = 14)
-ax[1].yaxis.set_tick_params(labelsize = 14)
+ax[1].set_xlabel('Feature importance', fontSize = 11)
+ax[1].xaxis.set_tick_params(labelsize = 11)
+ax[1].yaxis.set_tick_params(labelsize = 11)
 ax[1].spines['top'].set_visible(False)
 ax[1].spines['right'].set_visible(False)
-ax[1].set_title('Grouped by transcription factor', fontsize = 14)
+ax[1].set_title('Grouped by transcription factor', fontSize = 12)
 
 #display it for condition interval and feature type
 for i, cat in enumerate(['condition', 'feature type', 'interval',]):
     ax[i + 2].bar([x[0] for x in feature_importance_split_list[cat]], [x[1] for x in feature_importance_split_list[cat]])
-    ax[i + 2].set_ylabel('Average feature importance', fontSize = 14)
-    ax[i + 2].xaxis.set_tick_params(labelsize = 14)
-    ax[i + 2].yaxis.set_tick_params(labelsize = 14)
+    ax[i + 2].set_ylabel('Feature importance', fontSize = 11)
+    ax[i + 2].xaxis.set_tick_params(labelsize = 11)
+    ax[i + 2].yaxis.set_tick_params(labelsize = 11)
     ax[i + 2].spines['top'].set_visible(False)
     ax[i + 2].spines['right'].set_visible(False)
-    ax[i + 2].set_title('Grouped by ' + cat, fontsize = 14)
-plt.savefig('Results/FeatureImportanceSplit_' + model_name + '.png', dpi = 300, tight = True)
+    ax[i + 2].set_title('Grouped by ' + cat, fontSize = 12)
+  
+plt.tight_layout()
+plt.savefig('Results/FeatureImportanceSplit_' + model_name + '.png', dpi = 600, tight = True)
 plt.show()
