@@ -4,3 +4,4 @@ Pipfile
 Pipfile.lock
 Results_NonPublic/*
 Data_ChIPexo/*
+Tests/*
