@@ -10,7 +10,7 @@ This repository is administered by Christoph Boerlin (https://github.com/Christo
 # Introduction
 This toolbox uses gradient boosting regression trees (xgboost) to create a model predicting the ratio of gene expression between growth in glucose and growth in ethanol for the yeast _Saccharomyces cerevisiae_.
 This model is then used to predict the expression ratios of hybrid promoters that are created by swapping out a 50bp long stretch of the original promoter with that of other promoters. Then the hybrid promoters closest to the target gene expression ratios are displayed including the sequence for easy metabolic engineering. The simplified workflow is shown here:
-![Hyena Workflow](/Hyena_workflow.png)
+![Hyena Workflow](/Hyena_Workflow.png)
 
 
 ## Data availability
