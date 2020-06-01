@@ -12,8 +12,9 @@ import matplotlib.pyplot as plt
 tf_list = ['Cat8', 'Cbf1', 'Cst6', 'Ert1', 'Gcn4', 'Gcr1', 'Gcr2', 'Hap1', 'Ino2', 'Ino4', 'Leu3', 'Oaf1', 'Pip2', 'Rds2', 'Rgt1', 'Rtg1', 'Rtg3', 'Sip4', 'Stb5', 'Sut1', 'Tye7']
 
 tf_groups_tmp = {'Zinc cluster' : ['Cat8', 'Ert1', 'Hap1', 'Leu3', 'Sip4', 'Oaf1', 'Pip2', 'Rds2', 'Sut1', 'Rgt1', 'Stb5'],
-          'Zipper' : ['Cbf1', 'Cst6', 'Ino2', 'Ino4', 'Tye7', 'Rtg1', 'Rtg3', 'Gcn4', 'Gcr1', 'Gcr2']}
-tf_groups_color = {'Zinc cluster': 'blue', 'Zipper': 'red'}
+          'Zipper' : ['Cbf1', 'Cst6', 'Ino2', 'Ino4', 'Tye7', 'Rtg1', 'Rtg3', 'Gcn4'],
+          'Other' : ['Gcr1', 'Gcr2']}
+tf_groups_color = {'Zinc cluster': 'blue', 'Zipper': 'red', 'Other': 'grey'}
 #reorder groups
 tf_groups = {}
 for group_name, group_list in tf_groups_tmp.items():
@@ -73,7 +74,7 @@ tf_data_overview.loc[:,'Plot position'] = range(len(tf_list))
 plt.figure(figsize = (6,10))
 ax = plt.gca()
 #plot groups
-for group in ['Zinc cluster', 'Zipper']:
+for group in tf_groups_color.keys():
     tf_data_overview_tmp = tf_data_overview.loc[tf_data_overview.loc[:, 'TF group'] == group]
     plt.barh(tf_data_overview_tmp.loc[:,'Plot position'], tf_data_overview_tmp.loc[:, 'Percent both bound'], color = tf_groups_color[group], label = group)
 plt.yticks(range(len(tf_data_overview.index)), tf_data_overview.index)
@@ -85,7 +86,7 @@ ax.spines['right'].set_visible(False)
 plt.ylim(-0.5,20.5)
 plt.legend(fontsize = 16)
 plt.tight_layout()
-plt.savefig('Results/ConditonalTFBinding_PercentOverview.png', dpi = 300, tight = True)
+plt.savefig('Results/ConditonalTFBinding_PercentOverview.png', dpi = 600, tight = True)
 plt.show()
 
 #Make boxplot for log2 ratios for genes bound in both conditions
@@ -98,7 +99,7 @@ ax = plt.gca()
 plt.axvline(x = 0, ymin = 0, ymax = 1, linewidth = 2, color = 'grey', linestyle = '--')
 #plot groups
 boxplot_groups = {}
-for group in ['Zinc cluster', 'Zipper']:
+for group in tf_groups_color.keys():
     tf_data_overview_tmp = tf_data_overview.loc[tf_data_overview.loc[:, 'TF group'] == group]
     boxplot_groups[group] = plt.boxplot(tf_data_overview_tmp.loc[:, 'Log2 ratio list'], positions = tf_data_overview_tmp.loc[:,'Plot position'], patch_artist=True, boxprops = dict(facecolor = tf_groups_color[group]), medianprops=dict(color='white', linewidth = 2), vert=False)
 
@@ -113,5 +114,5 @@ plt.ylim()
 plt.xlim([xmin, xmax + 3])
 plt.legend([x["boxes"][0] for x in boxplot_groups.values()], boxplot_groups.keys(), fontsize = 16)
 plt.tight_layout()
-plt.savefig('Results/ConditonalTFBinding_Log2Ratios.png', dpi = 300, tight = True)
+plt.savefig('Results/ConditonalTFBinding_Log2Ratios.png', dpi = 600, tight = True)
 plt.show()
