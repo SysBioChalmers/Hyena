@@ -3,13 +3,19 @@
 
 This repostiory contains the Hyena toolbox scripts needed to run the Hyena streamlit app as well as all data preprocessing scripts.
 
-- Last update: 2020-05-19
+- Last update: 2020-06-01
 
 This repository is administered by Christoph Boerlin (https://github.com/ChristophBoerlin), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology
 
 # Introduction
 This toolbox uses gradient boosting regression trees (xgboost) to create a model predicting the ratio of gene expression between growth in glucose and growth in ethanol for the yeast _Saccharomyces cerevisiae_.
-This model is then used to predict the expression ratios of hybrid promoters that are created by swapping out a 50bp long stretch of the original promoter with that of other promoters. Then the hybrid promoters closest to the target gene expression ratios are displayed including the sequence for easy metabolic engineering.
+This model is then used to predict the expression ratios of hybrid promoters that are created by swapping out a 50bp long stretch of the original promoter with that of other promoters. Then the hybrid promoters closest to the target gene expression ratios are displayed including the sequence for easy metabolic engineering. The simplified workflow is shown here:
+![Hyena Workflow](/Hyena_workflow.png)
+
+
+## Data availability
+The ChIPexo data necessary to rerun the full feature creation and selection pipeline is available at Zenodo [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3871504.svg)](https://doi.org/10.5281/zenodo.3871504).
+Download the .zip file, and unpack it as subfolder "Data_ChIPexo" in the main folder.
 
 ## How to use the toolbox
 All settings in the toolbox are available in the panel on the left hand side.
